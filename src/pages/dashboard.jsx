@@ -7,7 +7,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchPickups = async () => {
       try {
-        const response = await fetch('http://localhost:5000/api/pickups');
+        const response = await fetch('https://eo-backend-tcmw.onrender.com/api/pickups');
         const data = await response.json();
         setPickups(data);
       } catch (err) {
