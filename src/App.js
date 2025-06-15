@@ -12,6 +12,7 @@ import SchedulePickup from './pages/schedulepickup.jsx';
 import Dashboard from './pages/dashboard.jsx';
 import CommunityImpact from './pages/communityimpact.jsx';
 import Volunteer from './pages/volunteer.jsx';
+import Aboutus from './pages/AboutUs.jsx';
 
 // Simple error boundary (optional but useful for debugging crashes)
 class ErrorBoundary extends React.Component {
@@ -48,6 +49,8 @@ const App = () => {
               <Route path="/dashboard" element={<Dashboard />} />
               <Route path="/community-impact" element={<CommunityImpact />} />
               <Route path="/volunteer" element={<Volunteer />} />
+              <Route path="/Aboutus" element={<Aboutus />} />
+
             </Routes>
           </main>
 

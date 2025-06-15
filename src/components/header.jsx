@@ -12,7 +12,8 @@ const Header = () => {
         <Link to="/services" style={styles.link}>Services</Link>
         <Link to="/community-impact" style={styles.link}>Community Impact</Link>
         <Link to="/volunteer" style={styles.link}>Volunteer</Link>
-        <Link to="/contact" style={styles.link}>Contact</Link>
+        <Link to="/contact" style={styles.link}>contact</Link>
+        <Link to="/Aboutus" style={styles.link}>Aboutus</Link>
       </nav>
     </header>
   );
