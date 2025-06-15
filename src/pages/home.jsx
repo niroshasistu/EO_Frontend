@@ -4,7 +4,7 @@ import './home.css';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 style={styles.title}>Welcome to EcoWaste ♻️</h1>
+      <h1 style={styles.title}>Welcome upendra ♻️</h1>
       <p style={styles.subtitle}>
         Empowering communities through smart waste and recycling management.
       </p>
